@@ -1,6 +1,6 @@
 [alias]     # 命令别名
 b = "build"
-c = "check"
+c = "clean"
 t = "test"
 r = "run"
 rr = "run --release"
