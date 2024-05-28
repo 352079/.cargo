@@ -1,0 +1,11 @@
+[alias]     # 命令别名
+b = "build"
+c = "check"
+t = "test"
+r = "run"
+rr = "run --release"
+[source.crates-io]
+replace-with = 'mirror'
+
+[source.mirror]
+registry = "sparse+https://mirrors.tuna.tsinghua.edu.cn/crates.io-index/"
